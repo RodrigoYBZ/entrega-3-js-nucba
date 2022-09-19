@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Entrega 2 | Javascript</title>
+    </head>
+    <body>
+        <main>
+            <section class="formulario">
+                <div class="logotipo-pizzeria">
+                    <!-- <h1 class="pizzeria-nombre">Margarita</h1> -->
+                    <img class="logo-pizzeria" src="/assets/pizza-logo.jpg" id="imageChange" alt="logo">
+                </div>
+                <div class="pizzaContainer">
+                    <h2 id="nombre" class="h2-text-nombre">¡Explora entre las 7 variedades que ofrecemos!</h2>
+                    <!-- <img id="imagen-pizza" class="pizza-steve" src="/assets/pizza-steve-image.png" alt=""> -->
+                    <h4 id="ingredientes" class="text-ingredientes">Ingredientes:</h4>
+                    <h4 id="precio" class="h4-text-precio">$</h4>
+                </div>
+                <form class="pizzaInput" id="pizzaForm">
+                    <input type="number" id="pizzaId"  />
+                    <button type="submit" id="buscarPizza" class="btn-buscar-pizza">¡Buscar!</button>
+                </form>
+                <small class="succes">¡Solo tenemos 7 variedades! (1-7)</small>
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
